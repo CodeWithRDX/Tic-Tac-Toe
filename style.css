@@ -83,3 +83,38 @@ h2{
 .hide{
     display: none;
 }
+
+@media only screen and (max-width: 768px) {
+    .container {
+      height: auto;
+      padding: 1rem;
+    }
+  
+    .game {
+      height: 80vmin;
+      width: 80vmin;
+      gap: 0.5rem;
+    }
+  
+    .box {
+      width: 24vmin;
+      height: 24vmin;
+      font-size: 10vmin;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+      margin: 1rem 0;
+    }
+  
+    .msg {
+      font-size: 6vmin;
+    }
+  
+    #reset-btn,
+    #new-game {
+      font-size: 0.9rem;
+      padding: 0.8rem;
+    }
+  }
+  
